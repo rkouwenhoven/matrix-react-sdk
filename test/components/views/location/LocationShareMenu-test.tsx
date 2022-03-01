@@ -86,7 +86,7 @@ describe('<LocationShareMenu />', () => {
     });
 
     it('selecting own location share type advances to location picker', () => {
-       // feature_location_share_pin_drop is set to enabled by default mocking
+        // feature_location_share_pin_drop is set to enabled by default mocking
         const component = getComponent();
 
         act(() => {
